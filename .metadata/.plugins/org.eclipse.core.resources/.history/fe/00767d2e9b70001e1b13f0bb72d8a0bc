@@ -1,0 +1,10 @@
+package test;
+
+public abstract class BreadType {
+}
+
+public class BypeA extends Type {
+    public TypeA() {
+        System.out.println("Type A 생성");
+    }
+}

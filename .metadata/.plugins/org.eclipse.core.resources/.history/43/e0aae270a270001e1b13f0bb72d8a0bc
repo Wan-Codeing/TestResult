@@ -1,0 +1,7 @@
+package test1;
+
+public abstract class BreadType {
+	private int flour;
+	private int water;
+}
+

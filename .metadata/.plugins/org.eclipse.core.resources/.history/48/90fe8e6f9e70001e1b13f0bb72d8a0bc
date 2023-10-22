@@ -1,0 +1,25 @@
+package test;
+
+public class Test1 {
+	public BreadType createType(String type) {
+        BreadType returnType = null;
+
+        switch (type) {
+            case "Cream":
+                returnType = new Cream();
+                break;
+            case "Butter":
+                returnType = new Butter();
+                break;
+            case "Sugar":
+                returnType = new Sugar();
+                break;
+        }
+        return returnType;
+    }
+	
+	public static void main(String[] args) {
+		BreadType cream =  new createType("Cream");
+	}
+
+}

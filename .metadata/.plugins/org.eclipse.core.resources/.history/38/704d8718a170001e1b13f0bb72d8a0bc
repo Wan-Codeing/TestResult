@@ -1,0 +1,12 @@
+package test;
+
+public class Sugar extends BreadType {
+	public String RecipeSugar() {
+		int sugar = 200;
+		flour = 100;
+		water = 50;
+		
+		String result = "breadType : cream\n" + "receipe\n" + "flour : " + flour + "\n" + "water : " + water + "\n" + "sugar : " + sugar;
+		return result;
+	}
+}

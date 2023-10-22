@@ -1,0 +1,15 @@
+package test;
+
+public class Butter extends BreadType {
+	public void RecipeButter() {
+		int butter = 50;
+		flour = 100;
+		water = 100;
+		
+		System.out.println("breadType : cream");
+		System.out.println("receipe");
+		System.out.println("flour : "+flour);
+		System.out.println("water : "+water);
+		System.out.println("butter : "+butter);
+	}
+}

@@ -1,0 +1,20 @@
+package test;
+
+public class createType extends BreadType {
+	public BreadType createType(String type) {
+        BreadType returnType = null;
+
+        switch (type) {
+            case "Cream":
+                returnType = new Cream();
+                break;
+            case "Butter":
+                returnType = new Butter();
+                break;
+            case "Sugar":
+                returnType = new Sugar();
+                break;
+        }
+        return returnType;
+    }
+}

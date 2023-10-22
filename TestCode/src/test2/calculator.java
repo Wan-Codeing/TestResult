@@ -1,0 +1,30 @@
+package test2;
+
+public class calculator {
+	
+	private int result;
+	
+	public calculator() {
+		
+	}
+	
+	public calculator(int initialNumber) {
+		result = initialNumber;
+	}
+	
+	public calculator add(int number) {
+		result += number;
+		return this;
+	}
+	
+	public calculator subtract(int number) {
+		result -= number;
+		return this;
+	}
+	
+	public int out() {
+		return result;
+	}
+	
+}
+

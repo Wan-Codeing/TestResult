@@ -1,0 +1,19 @@
+package test2;
+
+public class calculator {
+	int result = 0;
+	public int add(int number) {
+		result += number;
+		return result;
+	}
+	
+	public int subtract(int number) {
+		result -= number;
+		return result;
+	}
+	
+	public void out() {
+		System.out.println(result);
+	}
+	
+}

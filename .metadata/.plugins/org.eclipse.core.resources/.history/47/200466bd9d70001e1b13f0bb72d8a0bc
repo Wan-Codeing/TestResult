@@ -1,0 +1,15 @@
+package test;
+
+public class Cream extends BreadType{
+	public void RecipeCream() {
+		int cream = 200;
+		flour = 100;
+		water = 100;
+		
+		System.out.println("breadType : cream");
+		System.out.println("receipe");
+		System.out.println("flour : "+flour);
+		System.out.println("water : "+water);
+		System.out.println("cream : "+cream);
+	}
+}
